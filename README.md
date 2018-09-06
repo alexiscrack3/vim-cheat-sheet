@@ -25,3 +25,8 @@ Almost all deletion commands are performed by typing d followed by a motion. A f
 
 * **`x`** Delete character under the cursor
 * **`dd`** Delete current line
+
+## Searching Text
+
+* **`f`** Look ahead for the next occurrence of the specified character and then move the cursor directly to it if a match is found
+
