@@ -1,1 +1,1 @@
-# vim-cheat-sheet
+# Vim Cheat Sheet
