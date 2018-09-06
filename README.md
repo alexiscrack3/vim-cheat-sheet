@@ -30,7 +30,15 @@ Almost all deletion commands are performed by typing d followed by a motion. A f
 * **`x`** Delete character under the cursor
 * **`dd`** Delete current line
 
-## Searching Text
+## Searching and Replacing
 
 * **`f`** Look ahead for the next occurrence of the specified character and then move the cursor directly to it if a match is found
+* **`;`** Scan line for next character
+* **`,`** Scan line for previous character
+* **`/pattern`** Search for pattern
+* **`?pattern`** Search backward for pattern
+* **`n`** Repeat search in same direction
+* **`N`** Repeat search in opposite direction
+* **`%s/old/new/g`** Replace all old with new throughout file
+* **`*`** Search forward for the [count]'th occurrence of the word nearest to the cursor
 
