@@ -11,7 +11,6 @@
 
 ## Editing Text
 
-Editing
 * **`u`** Undo last change 
 
 ## Inserting Text
