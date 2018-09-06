@@ -9,6 +9,10 @@
 * **`>`** Shift text right
 * **`<`** Shift text left
 
+## Inserting Text
+
+* **`A`** Append after line
+
 ## Deleting Text
 
 Almost all deletion commands are performed by typing d followed by a motion. A few other deletes are:
