@@ -1,13 +1,17 @@
 # Vim Cheat Sheet
 
+## Cursor movement
+
+* **`$`** Jump to the end of the line.
+
 ## Manipulating Text
 
-* **`>`**  Shift text right.
-* **`<`**  Shift text left.
+* **`>`** Shift text right.
+* **`<`** Shift text left.
 
 ## Deleting Text
 
 Almost all deletion commands are performed by typing d followed by a motion. A few other deletes are:
 
-* **`x`** Delete character under the cursor.
+* **`x`**  Delete character under the cursor.
 * **`dd`** Delete current line.
