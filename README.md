@@ -9,6 +9,11 @@
 * **`>`** Shift text right
 * **`<`** Shift text left
 
+## Editing Text
+
+Editing
+* **`u`** Undo last change 
+
 ## Inserting Text
 
 * **`C`** Delete from the cursor position to the end of the line
