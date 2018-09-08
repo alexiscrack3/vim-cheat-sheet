@@ -11,7 +11,8 @@
 
 ## Editing Text
 
-* **`u`** Undo last change 
+* **`u`** Undo
+* **`ctrl + r`** Redo
 
 ## Inserting Text
 
