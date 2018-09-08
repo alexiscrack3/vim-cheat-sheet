@@ -51,6 +51,9 @@
 * **`?pattern`** Search backward for pattern
 * **`n`** Repeat search in same direction
 * **`N`** Repeat search in opposite direction
-* **`%s/old/new/g`** Replace all old with new throughout file
 * **`*`** Search forward for the [count]'th occurrence of the word nearest to the cursor
+
+## Replacing
+
+* **`%s/old/new/g`** Replace all old with new throughout file
 
