@@ -2,9 +2,16 @@
 
 ## Cursor Movement
 
-* **`$`** Jump to the end of the line
+* **`w`** Next word
+* **`0`** Beginning of line
+* **`$`** End of line
+* **`gg`** Start of file
+* **`G`** End of file
+* **`H`** Top of screen
+* **`M`** Middle of screen
+* **`L`** Bottom of screen
 
-## Insert Mode 
+## Inserting Text
 
 * **`i`** Start insert mode at cursor
 * **`I`** Insert at the beginning of the line
@@ -12,8 +19,9 @@
 * **`A`** Append at the end of the line
 * **`o`** Append blank a line below current line
 * **`O`** Append blank a line above current line
+* **`C`** Delete from the cursor position to the end of the line
 
-## Editing
+## Editing Text
 
 * **`u`** Undo
 * **`<C-r>`** Redo
@@ -29,7 +37,6 @@
 ## Cut and Paste
 
 * **`yy`** yank (copy) a line
-* **`C`** Delete from the cursor position to the end of the line
 * **`p`** Put (paste) the clipboard after cursor
 * **`P`** Put (paste) before cursor
 * **`dd`** Delete current line
