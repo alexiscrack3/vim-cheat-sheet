@@ -9,27 +9,31 @@
 * **`>`** Shift text right
 * **`<`** Shift text left
 
-## Editing Text
+## Insert Mode 
+
+* **`i`** Start insert mode at cursor
+* **`I`** Insert at the beginning of the line
+* **`a`** Append after the cursor
+* **`A`** Append at the end of the line
+* **`o`** Append blank a line below current line
+* **`O`** Append blank a line above current line
+
+## Editing
 
 * **`u`** Undo
-* **`ctrl + r`** Redo
+* **`<C-r>`** Redo
+* **`s`** Delete character at cursor and substitute text
+* **`S`** Delete line at cursor and substitute text (same as cc)
+* **`.`** Repeat last command
 
-## Inserting Text
+## Cut and Paste
 
+* **`yy`** yank (copy) a line
 * **`C`** Delete from the cursor position to the end of the line
-* **`i`** Insert before the cursor
-* **`I`** Insert at the beginning of the line
-* **`a`** Insert (append) after the cursor
-* **`A`** Insert (append) at the end of the line
-* **`o`** Append (open) a new line below the current line
-* **`O`** Append (open) a new line above the current line
-
-## Deleting Text
-
-Almost all deletion commands are performed by typing d followed by a motion. A few other deletes are:
-
-* **`x`** Delete character under the cursor
+* **`p`** Put (paste) the clipboard after cursor
+* **`P`** Put (paste) before cursor
 * **`dd`** Delete current line
+* **`x`** Delete character under the cursor
 
 ## Searching and Replacing
 
