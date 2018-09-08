@@ -4,11 +4,6 @@
 
 * **`$`** Jump to the end of the line
 
-## Manipulating Text
-
-* **`>`** Shift text right
-* **`<`** Shift text left
-
 ## Insert Mode 
 
 * **`i`** Start insert mode at cursor
@@ -26,6 +21,11 @@
 * **`S`** Delete line at cursor and substitute text (same as cc)
 * **`.`** Repeat last command
 
+## Visual Commands
+
+* **`>`** Shift text right
+* **`<`** Shift text left
+
 ## Cut and Paste
 
 * **`yy`** yank (copy) a line
@@ -35,7 +35,7 @@
 * **`dd`** Delete current line
 * **`x`** Delete character under the cursor
 
-## Searching and Replacing
+## Searching
 
 * **`f`** Look ahead for the next occurrence of the specified character and then move the cursor directly to it if a match is found
 * **`;`** Scan line for next character
