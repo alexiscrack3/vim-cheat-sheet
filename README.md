@@ -52,6 +52,8 @@
 
 * **`>`** Shift text right
 * **`<`** Shift text left
+* **`y`** yank (copy) marked text
+* **`d`** Delete marked text
 
 ## Cut and Paste
 
