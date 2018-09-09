@@ -14,8 +14,8 @@
 * **`gg`** Start of file
 * **`G`** End of file
 * **`:n`** nth line of file
-* **`f<char>`** Forward to char
-* **`F<char>`** Back to char
+* **`f{char}`** Forward to char
+* **`F{char}`** Back to char
 * **`;`** Scan line for next character
 * **`,`** Scan line for previous character
 * **`H`** Top of screen
