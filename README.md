@@ -77,6 +77,10 @@
 
 * **`%s/old/new/g`** Replace all old with new throughout file
 
+## Register
+
+* **`<C-r>=`** Opens prompt at the bottom of the screen where a expression can be evaluated. When done, hit <CR>
+
 ## Other
 
 * **`K`** Looks up the man page for the word under the cursor
