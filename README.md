@@ -13,6 +13,7 @@
 * **`$`** End of line
 * **`gg`** Start of file
 * **`G`** End of file
+* **`t{char}`** The cursor is placed on the character left of {char}
 * **`:n`** nth line of file
 * **`f{char}`** Forward to char
 * **`F{char}`** Back to char
