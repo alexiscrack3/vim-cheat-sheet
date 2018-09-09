@@ -58,7 +58,8 @@
 * **`?pattern`** Search backward for pattern
 * **`n`** Repeat search in same direction
 * **`N`** Repeat search in opposite direction
-* **`*`** Search forward for the [count]'th occurrence of the word nearest to the cursor
+* **`*`** Search for next instance of current word
+* **`#`** Search for last instance of current word
 
 ## Replacing
 
