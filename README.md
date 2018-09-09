@@ -71,3 +71,8 @@
 
 * **`%s/old/new/g`** Replace all old with new throughout file
 
+## Other
+
+* **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
+* **`zz`** Redraws the screen with the current line in the middle of the window
+
