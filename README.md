@@ -21,6 +21,8 @@
 ** **`H`** Top of screen
 * **`M`** Middle of screen
 * **`L`** Bottom of screen
+* **`<C-b>`** Page up
+* **`<C-f>`** Page down
 
 ## Inserting Text
 
