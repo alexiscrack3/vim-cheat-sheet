@@ -62,6 +62,7 @@
 * **`P`** Put (paste) before cursor
 * **`dd`** Delete current line
 * **`x`** Delete character under the cursor
+* **`<C-r>0`** Paste the text that was just yanked at cursor
 
 ## Searching
 
