@@ -41,6 +41,9 @@
 * **`s`** Delete character at cursor and substitute text
 * **`S`** Delete line at cursor and substitute text (same as cc)
 * **`.`** Repeat last command
+* **`<C-h>`** Delete back one character (same as backspace)
+* **`<C-w>`** Delete back one word
+* **`<C-u>`** Delete back to start of line
 
 ## Visual Commands
 
