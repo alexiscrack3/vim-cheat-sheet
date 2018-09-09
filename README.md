@@ -2,12 +2,22 @@
 
 ## Cursor Movement
 
+* **`h`** Cursor left
+* **`j`** Cursor down
+* **`k`** Cursor up
+* **`l`** Cursor right
 * **`w`** Next word
+* **`b`** Start of word
+* **`e`** End of word
 * **`0`** Beginning of line
 * **`$`** End of line
 * **`gg`** Start of file
 * **`G`** End of file
-* **`H`** Top of screen
+* **`:n`** nth line of file
+* **`f`** Forward to char
+* **`;`** Back to char
+* **`,`** Scan line for previous character
+** **`H`** Top of screen
 * **`M`** Middle of screen
 * **`L`** Bottom of screen
 
@@ -44,9 +54,6 @@
 
 ## Searching
 
-* **`f`** Look ahead for the next occurrence of the specified character and then move the cursor directly to it if a match is found
-* **`;`** Scan line for next character
-* **`,`** Scan line for previous character
 * **`/pattern`** Search for pattern
 * **`?pattern`** Search backward for pattern
 * **`n`** Repeat search in same direction
