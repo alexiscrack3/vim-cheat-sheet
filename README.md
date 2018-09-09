@@ -18,7 +18,7 @@
 * **`F<char>`** Back to char
 * **`;`** Scan line for next character
 * **`,`** Scan line for previous character
-** **`H`** Top of screen
+* **`H`** Top of screen
 * **`M`** Middle of screen
 * **`L`** Bottom of screen
 * **`<C-b>`** Page up
