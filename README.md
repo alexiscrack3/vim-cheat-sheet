@@ -73,6 +73,7 @@
 
 ## Other
 
-* **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
+* **`K`** Looks up the man page for the word under the cursor
 * **`zz`** Redraws the screen with the current line in the middle of the window
+* **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
 
