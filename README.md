@@ -33,6 +33,8 @@
 * **`o`** Append blank a line below current line
 * **`O`** Append blank a line above current line
 * **`C`** Delete from the cursor position to the end of the line
+* **`<C-[>`** Exit insert mode
+* **`<Esc>`** Exit insert mode
 
 ## Editing Text
 
