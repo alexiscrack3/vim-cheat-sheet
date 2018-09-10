@@ -79,6 +79,7 @@
 * **`<`** Shift text left
 * **`y`** Yank selection (copy)
 * **`d`** Delete selection
+* **`x`** Delete selection
 * **`s`** Replace selection
 
 ## Clipboard
