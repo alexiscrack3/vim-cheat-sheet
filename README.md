@@ -50,10 +50,13 @@
 
 ## Visual Commands
 
+* **`v`** Enter visual mode
+* **`V`** Enter visual line mode
 * **`>`** Shift text right
 * **`<`** Shift text left
-* **`y`** yank (copy) marked text
-* **`d`** Delete marked text
+* **`y`** Yank selection (copy)
+* **`d`** Delete selection
+* **`s`** Replace selection
 
 ## Cut and Paste
 
