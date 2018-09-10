@@ -70,8 +70,10 @@
 
 ## Visual Mode
 
-* **`v`** Enter visual mode
-* **`V`** Enter visual line mode
+* **`v`** Enter character-wise visual mode
+* **`V`** Enter line-wise visual mode
+* **`<C-v>`** Enter block-wise visual mode
+* **``gv`** Reselect the last visual selection
 * **`>`** Shift text right
 * **`<`** Shift text left
 * **`y`** Yank selection (copy)
