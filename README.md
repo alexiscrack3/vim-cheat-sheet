@@ -1,24 +1,40 @@
 # Vim Cheat Sheet
 
-## Cursor Movement
+## Navigating
 
 * **`h`** Cursor left
 * **`j`** Cursor down
 * **`k`** Cursor up
 * **`l`** Cursor right
+
+### Words
+
 * **`w`** Next word
 * **`b`** Start of word
 * **`e`** End of word
-* **`0`** Beginning of line
+
+### Line
+
+* **`0`** Start of line
 * **`$`** End of line
-* **`gg`** Start of file
-* **`G`** End of file
-* **`t{char}`** The cursor is placed on the character left of {char}
-* **`:n`** nth line of file
-* **`f{char}`** Forward to char
-* **`F{char}`** Back to char
+
+### Character
+
+* **`f{char}`** Go forward to char
+* **`F{char}`** Go backward to char
 * **`;`** Scan line for next character
 * **`,`** Scan line for previous character
+* **`t{char}`** The cursor is placed on the character left of {char}
+
+### Document
+
+* **`gg`** Start of file
+* **`G`** End of file
+* **`:n`** Go to line n
+
+### Window
+
+* **`zz`** Redraws the screen with the current line in the middle of the window
 * **`H`** Top of screen
 * **`M`** Middle of screen
 * **`L`** Bottom of screen
@@ -48,7 +64,7 @@
 * **`<C-w>`** Delete back one word
 * **`<C-u>`** Delete back to start of line
 
-## Visual Commands
+## Visual Mode
 
 * **`v`** Enter visual mode
 * **`V`** Enter visual line mode
@@ -58,13 +74,13 @@
 * **`d`** Delete selection
 * **`s`** Replace selection
 
-## Cut and Paste
+## Clipboard
 
-* **`yy`** yank (copy) a line
-* **`p`** Put (paste) the clipboard after cursor
-* **`P`** Put (paste) before cursor
-* **`dd`** Delete current line
 * **`x`** Delete character under the cursor
+* **`dd`** Delete current line (cut)
+* **`yy`** Yank a line (copy)
+* **`p`** Put after cursor (paste)
+* **`P`** Put  before cursor (paste)
 * **`<C-r>0`** Paste the text that was just yanked at cursor
 
 ## Searching
@@ -87,7 +103,6 @@
 ## Other
 
 * **`K`** Looks up the man page for the word under the cursor
-* **`zz`** Redraws the screen with the current line in the middle of the window
 * **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
 * **`:help key-notation`** Show all key notations
 
