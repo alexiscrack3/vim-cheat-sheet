@@ -107,4 +107,5 @@
 * **`:help key-notation`** Show all key notations
 * **`<C-v>{code}`** Insert character by decimal code
 * **`ga`** Print the ascii value of the character under the  cursor in decimal, hexadecimal and octal.
+* **`<C-k>{char1}{char2}`** Insert unusual characters by digraph.
 
