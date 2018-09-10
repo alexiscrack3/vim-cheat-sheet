@@ -41,30 +41,32 @@
 * **`<C-b>`** Page up
 * **`<C-f>`** Page down
 
-## Inserting Text
+## Exiting
 
-* **`i`** Start insert mode at cursor
+* **`ZZ`** Save and quit
+
+## Editing
+
+* **`i`** Enter insert mode at cursor
 * **`I`** Insert at the beginning of the line
 * **`a`** Append after the cursor
 * **`A`** Append at the end of the line
 * **`o`** Append blank a line below current line
 * **`O`** Append blank a line above current line
+* **`s`** Delete character at cursor and substitute text
+* **`S`** Delete line at cursor and substitute text (same as cc)
 * **`C`** Delete from the cursor position to the end of the line
 * **`r`** Replace one character
 * **`R`** Enter replace mode
-* **`<C-[>`** Exit insert mode
-* **`<Esc>`** Exit insert mode
-
-## Editing Text
-
-* **`u`** Undo
-* **`<C-r>`** Redo
-* **`s`** Delete character at cursor and substitute text
-* **`S`** Delete line at cursor and substitute text (same as cc)
-* **`.`** Repeat last command
 * **`<C-h>`** Delete back one character (same as backspace)
 * **`<C-w>`** Delete back one word
 * **`<C-u>`** Delete back to start of line
+
+## Insert Mode
+
+* **`<C-c>`** Exit insert mode, and abort current command
+* **`<C-[>`** Exit insert mode
+* **`<Esc>`** Exit insert mode
 
 ## Visual Mode
 
@@ -102,8 +104,14 @@
 
 * **`<C-r>=`** Opens prompt at the bottom of the screen where a expression can be evaluated. When done, hit <CR>
 
+## Misc
+
+* **`.`** Repeat last command
+
 ## Other
 
+* **`u`** Undo
+* **`<C-r>`** Redo
 * **`K`** Looks up the man page for the word under the cursor
 * **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
 * **`:help key-notation`** Show all key notations
