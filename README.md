@@ -105,4 +105,6 @@
 * **`K`** Looks up the man page for the word under the cursor
 * **`<C-o>`** Switch to insert normal mode. Fire off a single command, after which we'll be returned to insert mode immediately
 * **`:help key-notation`** Show all key notations
+* **`<C-v>{code}`** Insert character by decimal code
+* **`ga`** Print the ascii value of the character under the  cursor in decimal, hexadecimal and octal.
 
