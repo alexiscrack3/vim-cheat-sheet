@@ -31,6 +31,7 @@
 * **`gg`** Start of file
 * **`G`** End of file
 * **`:n`** Go to line n
+* **`{n}G`** Go to line n
 
 ### Window
 
