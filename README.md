@@ -77,9 +77,10 @@
 * **`gv`** Reselect the last visual selection
 * **`>`** Shift text right
 * **`<`** Shift text left
-* **`y`** Yank selection (copy)
 * **`d`** Delete selection
 * **`x`** Delete selection
+* **`c`** Change (delete then insert)
+* **`y`** Yank selection (copy)
 * **`s`** Replace selection
 
 ## Clipboard
