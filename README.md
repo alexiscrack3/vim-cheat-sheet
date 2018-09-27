@@ -1,5 +1,7 @@
 # Vim Cheat Sheet
 
+A collection of some of the most useful vim commands
+
 ## Navigating
 
 * **`h`** Cursor left
