@@ -115,6 +115,7 @@ A collection of some of the most useful vim commands
 ## Misc
 
 * **`.`** Repeat last command
+* **`;`** Repeat the last search that the f performed
 
 ## Other
 
