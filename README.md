@@ -83,6 +83,7 @@ A collection of some of the most useful vim commands
 * **`d`** Delete selection
 * **`x`** Delete selection
 * **`c`** Change (delete then insert)
+* **`cw`** Deletes to the end of the word and then drop us into insert mode
 * **`y`** Yank selection (copy)
 * **`s`** Replace selection
 
